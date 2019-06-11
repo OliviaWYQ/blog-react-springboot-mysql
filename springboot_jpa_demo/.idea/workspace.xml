@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2e4f730-8557-4d6d-8232-1de115446092" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/actions/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/actions/books.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/axios/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/axios/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nasus/jpa/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nasus/jpa/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nasus/jpa/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nasus/jpa/controller/StudentController.class" afterDir="false" />
-    </list>
+    <list default="true" id="f2e4f730-8557-4d6d-8232-1de115446092" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nasus/jpa/service/impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+            <state relative-caret-position="263">
+              <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -256,12 +248,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560153342576</updated>
       <workItem from="1560153345524" duration="3502000" />
-      <workItem from="1560159322245" duration="1505000" />
+      <workItem from="1560159322245" duration="1579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5007000" />
+    <option name="totallyTimeSpent" value="5081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,7 +268,7 @@
     <frame x="54" y="23" width="917" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38057142" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38057142" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,7 +282,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -362,8 +354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nasus/jpa/service/impl/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="43" column="6" lean-forward="true" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        <state relative-caret-position="263">
+          <caret line="52" column="36" lean-forward="true" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
         </state>
       </provider>
     </entry>
