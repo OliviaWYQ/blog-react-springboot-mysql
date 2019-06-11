@@ -5,7 +5,7 @@ import { removeBook } from '../actions/books';
 
 const Book = ({ id, title, name, description, author, published, dispatch }) => (
     <div>
-        <Link to={`${id}`}>
+        <Link to={`/${id}`}>
             <h4>Title: {title} {name}({published})</h4>
         </Link>
         <p>Author: {author}</p>
