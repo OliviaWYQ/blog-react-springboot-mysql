@@ -59,7 +59,7 @@ const _getBooks = (books) => ({
 
 export const getBooks = () => {
     return (dispatch) => {
-        return axios.get('books').then(result => {
+        return axios.get('books/').then(result => {
             const books = [];
 
             result.data.forEach(item => {
