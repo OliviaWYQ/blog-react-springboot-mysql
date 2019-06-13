@@ -11,9 +11,9 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://localhost:8081")
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/books")
 public class ContentController {
 
     @Autowired
@@ -31,6 +31,24 @@ public class ContentController {
         return contentRepository.findById(id).get();
     }
 
+    @PutMapping("/{id}")
+    public ResponseEntity<Content> updateContent(@PathVariable("id") Integer id, @RequestBody Content content) {
+        System.out.println("Update Content with ID = " + id + "...");
+
+        Optional<Content> contentData = contentRepository.findById(id);
+        if (contentData.isPresent()) {
+            Content temp = contentData.get();
+            temp.setTitle(content.getTitle());
+            temp.setAuthor(content.getAuthor());
+            temp.setDescription(content.getDescription());
+            temp.setTime(content.getTime());
+            Content updated = contentRepository.save(temp);
+            return new ResponseEntity<>(updated, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+        }
+    }
+
     @GetMapping("/list")
     public List<Content> findContentList(){
         System.out.println("List Content");
@@ -44,7 +62,7 @@ public class ContentController {
         contentRepository.delete(content);
     }
 
-    @PostMapping("/post")
+    @PostMapping("/create")
     public Content postContent(@Valid @RequestBody Content content) {
         System.out.println("Post Content: " + content.getTitle());
         return contentRepository.save(content);

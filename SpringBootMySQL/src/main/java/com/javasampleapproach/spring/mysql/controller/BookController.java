@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.javasampleapproach.spring.mysql.model.Book;
 import com.javasampleapproach.spring.mysql.repo.BookRepository;
 
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "http://localhost:8081")
 @RestController
 @RequestMapping("/api")
 public class BookController {
@@ -30,7 +30,7 @@ public class BookController {
 	@Autowired
 	BookRepository bookRepository;
 
-	@GetMapping("/books")
+	@GetMapping("/books/list")
 	public List<Book> getAllBooks() {
 		System.out.println("Get all Books...");
 

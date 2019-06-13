@@ -1,25 +1,27 @@
 import axios from '../axios/axios';
 
-const _addBook = (book) => ({
+const _addBook = (content) => ({
     type: 'ADD_BOOK',
-    book
+    content
 });
 
 export const addBook = (bookData = {
+    // id: '',
     title: '',
-    description: '',
     author: '',
-    published: 0
+    time: '',
+    description: ''
 }) => {
     return (dispatch) => {
-        const book = {
+        const content = {
+            // id: bookData.id,
             title: bookData.title,
-            description: bookData.description,
             author: bookData.author,
-            published: bookData.published
+            time: bookData.time,
+            description: bookData.description
         };
 
-        return axios.post('/create', book).then(result => {
+        return axios.post('/create', content).then(result => {
             dispatch(_addBook(result.data));
         });
     };

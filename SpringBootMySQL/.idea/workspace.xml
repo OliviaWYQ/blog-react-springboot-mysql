@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f779535c-13d1-481b-9ce2-97a13e6359e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/actions/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/actions/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/axios/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/axios/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/AddBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/AddBook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Book.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogdemo/src/main/java/com/example/demo/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../blogdemo/src/main/java/com/example/demo/controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogdemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../blogdemo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blogdemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../blogdemo/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/SpringBootMySqlApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="95">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="294">
+              <caret line="79" column="5" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="95">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -133,10 +144,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="54" />
     <option name="y" value="23" />
-    <option name="width" value="948" />
+    <option name="width" value="865" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -276,7 +287,9 @@
       <option name="presentableId" value="Default" />
       <updated>1559919143554</updated>
       <workItem from="1560159716396" duration="6002000" />
-      <workItem from="1560240571320" duration="248000" />
+      <workItem from="1560240571320" duration="760000" />
+      <workItem from="1560333071511" duration="41000" />
+      <workItem from="1560340324294" duration="2716000" />
     </task>
     <servers />
   </component>
@@ -295,13 +308,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6250000" />
+    <option name="totallyTimeSpent" value="9519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="948" height="877" extended-state="0" />
+    <frame x="54" y="23" width="865" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.196468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19076549" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -311,7 +324,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44713375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44713375" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,22 +431,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/SpringBootMySqlApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="95">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="294">
+          <caret line="79" column="5" lean-forward="true" selection-start-line="62" selection-start-column="4" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

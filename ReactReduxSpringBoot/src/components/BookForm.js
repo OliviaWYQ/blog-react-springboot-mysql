@@ -3,21 +3,27 @@ import React from 'react';
 export default class BookForm extends React.Component {
     constructor(props) {
         super(props);
+        // this.onIdChange = this.onIdChange.bind(this);
         this.onTitleChange = this.onTitleChange.bind(this);
         this.onAuthorChange = this.onAuthorChange.bind(this);
         this.onDescriptionChange = this.onDescriptionChange.bind(this);
-        this.onPublishedChange = this.onPublishedChange.bind(this);
+        this.onTimeChange = this.onTimeChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
 
         this.state = {
+            // id: props.book ? props.book.id : '',
             title: props.book ? props.book.title : '',
             author: props.book ? props.book.author : '',
             description: props.book ? props.book.description : '',
-            published: props.book ? props.book.published : 0,
-
+            time: props.book ? props.book.time : '',
             error: ''
         };
     }
+
+    // onIdChange(e) {
+    //     const id = e.target.value;
+    //     this.setState(() => ({ id: id }));
+    // }
 
     onTitleChange(e) {
         const title = e.target.value;
@@ -34,24 +40,25 @@ export default class BookForm extends React.Component {
         this.setState(() => ({ description: description }));
     }
 
-    onPublishedChange(e) {
-        const published = parseInt(e.target.value);
-        this.setState(() => ({ published: published }));
+    onTimeChange(e) {
+        const time = e.target.value;
+        this.setState(() => ({ time: time }));
     }
 
     onSubmit(e) {
         e.preventDefault();
 
-        if (!this.state.title || !this.state.author || !this.state.published) {
-            this.setState(() => ({ error: 'Please set title & author & published!' }));
+        if (!this.state.title || !this.state.author || !this.state.time) {
+            this.setState(() => ({ error: 'Invalid Input'}));
         } else {
             this.setState(() => ({ error: '' }));
             this.props.onSubmitBook(
                 {
+                    // id: this.state.id,
                     title: this.state.title,
                     author: this.state.author,
                     description: this.state.description,
-                    published: this.state.published
+                    time: this.state.time
                 }
             );
         }
@@ -78,11 +85,11 @@ export default class BookForm extends React.Component {
                         onChange={this.onDescriptionChange} />
                     <br />
 
-                    <input type="number" placeholder="published"
-                        value={this.state.published}
-                        onChange={this.onPublishedChange} />
+                    <input type="text" placeholder="time"
+                        value={this.state.time}
+                        onChange={this.onTimeChange} />
                     <br />
-                    <button>Add Book</button>
+                    <button>Submit</button>
                 </form>
             </div>
         );
