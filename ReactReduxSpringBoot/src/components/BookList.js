@@ -6,10 +6,10 @@ const BookList = (props) => (
     <div>
         Book List:
         <ul>
-            {props.books.map(book => {
+            {props.books.map(content => {
                 return (
-                    <li key={book.id}>
-                        <Book {...book} />
+                    <li key={content.id}>
+                        <Book {...content} />
                     </li>
                 );
             })}

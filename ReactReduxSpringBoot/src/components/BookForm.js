@@ -85,7 +85,7 @@ export default class BookForm extends React.Component {
                         onChange={this.onDescriptionChange} />
                     <br />
 
-                    <input type="text" placeholder="time"
+                    <input type="text" placeholder="time (YYYY-MM-DD)"
                         value={this.state.time}
                         onChange={this.onTimeChange} />
                     <br />

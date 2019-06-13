@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { removeBook } from '../actions/books';
+import { removeBook, editBook } from '../actions/books';
 
 const Book = ({ id, title, name, description, author, time, dispatch }) => (
     <div>
-        <Link to={`/${id}`}>
-            <h4>Title: {title} {name}({time.slice(0,10)})</h4>
-        </Link>
-        <p>Author: {author}</p>
-        {description && <p>Description: {description}</p>}
+        <h4>{title} {name}</h4>
+        <p>Posted by {author} ({time.slice(0,10)})</p>
+        {description && <p>{description}</p>}
         <button onClick={() => {
             dispatch(removeBook({ id }));
-        }}>Remove</button>
+        }}>Remove</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <Link to={`/${id}`}>
+            <button>Edit</button>
+        </Link>
     </div>
 );
 

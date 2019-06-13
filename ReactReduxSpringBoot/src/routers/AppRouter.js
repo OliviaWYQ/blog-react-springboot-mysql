@@ -11,9 +11,9 @@ const AppRouter = () => (
         <div className='container'>
             <Header />
             <Switch>
-                <Route path="/" component={DashBoard} exact={true} />
+                <Route path="/" component={DashBoard} exact={true} forceRefresh={true}/>
                 <Route path="/add" component={AddBook} />
-                <Route path="/book/:id" component={EditBook} />
+                <Route path="/:id" component={EditBook} />
                 <Route component={NotFound} />
             </Switch>
         </div>

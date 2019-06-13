@@ -20,7 +20,7 @@ export const addBook = (bookData = {
             time: bookData.time,
             description: bookData.description
         };
-
+        console.log("add post", content);
         return axios.post('/create', content).then(result => {
             dispatch(_addBook(result.data));
         });
@@ -33,6 +33,7 @@ const _removeBook = ({ id } = {}) => ({
 });
 
 export const removeBook = ({ id } = {}) => {
+    console.log("remove post", id);
     return (dispatch) => {
         return axios.delete(`/${id}`).then(() => {
             dispatch(_removeBook({ id }));
@@ -47,6 +48,7 @@ const _editBook = (id, updates) => ({
 });
 
 export const editBook = (id, updates) => {
+    console.log("edit post", id, updates);
     return (dispatch) => {
         return axios.put(`/${id}`, updates).then(() => {
             dispatch(_editBook(id, updates));

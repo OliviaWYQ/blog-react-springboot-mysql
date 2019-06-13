@@ -5,10 +5,16 @@ import { editBook } from '../actions/books';
 
 const EditBook = (props) => (
     <div className='container__box'>
+        <h3>Edit Post</h3>
         <BookForm
-            book={props.book}
-            onSubmitBook={(book) => {
-                props.dispatch(editBook(props.book.id, book));
+            // book={props.book}
+            // onSubmitBook={(book) => {
+            //     props.dispatch(editBook(props.book.id, book));
+            //     props.history.push('/');
+            // }}
+            content={props.content}
+            onSubmitBook={(content) => {
+                props.dispatch(editBook(props.location.pathname.slice(1, ), content));
                 props.history.push('/');
             }}
         />
@@ -17,8 +23,8 @@ const EditBook = (props) => (
 
 const mapStateToProps = (state, props) => {
     return {
-        book: state.find((book) =>
-            book.id === props.match.params.id)
+        content: state.find((content) =>
+            content.id === props.match.params.id)
     };
 };
 
