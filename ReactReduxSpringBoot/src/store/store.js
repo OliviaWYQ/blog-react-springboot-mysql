@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from "redux";
-import books from '../reducers/books';
+import contents from '../reducers/contents';
 import thunk from 'redux-thunk';
 
 export default () => {
-    return createStore(books, applyMiddleware(thunk));
+    return createStore(contents, applyMiddleware(thunk));
 };

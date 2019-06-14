@@ -2,8 +2,8 @@
   "name": "react-redux-springboot",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "JavaSampleApproach",
-  "license": "MIT",
+  "author": "",
+  "license": "",
   "scripts": {
     "serve": "live-server public",
     "build": "webpack",

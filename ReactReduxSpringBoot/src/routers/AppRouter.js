@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from '../components/Header';
-import DashBoard from '../components/DashBoard';
-import AddBook from '../components/AddBook';
-import EditBook from '../components/EditBook';
+import Home from '../components/Home';
+import Add from '../components/Add';
+import Edit from '../components/Edit';
 import NotFound from '../components/NotFound';
 
 const AppRouter = () => (
@@ -11,9 +11,9 @@ const AppRouter = () => (
         <div className='container'>
             <Header />
             <Switch>
-                <Route path="/" component={DashBoard} exact={true} forceRefresh={true}/>
-                <Route path="/add" component={AddBook} />
-                <Route path="/:id" component={EditBook} />
+                <Route path="/" component={Home} exact={true} forceRefresh={true}/>
+                <Route path="/add" component={Add} />
+                <Route path="/:id" component={Edit} />
                 <Route component={NotFound} />
             </Switch>
         </div>

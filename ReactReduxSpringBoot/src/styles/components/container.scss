@@ -1,5 +1,5 @@
 .container {
-    max-width: 40rem;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 0 $m-size;
     text-align: center;
@@ -11,8 +11,7 @@
 
 .container__box {
     background-color: $light;
-    width: 300px;
-    border: 1px solid $blue;
+    // border: 1px solid $blue;
     padding: 15px;
     margin: 15px auto;
 }

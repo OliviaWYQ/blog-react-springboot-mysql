@@ -1,20 +1,20 @@
 import React from 'react';
-import BookForm from './BookForm';
+import Form from './Form';
 import { connect } from 'react-redux';
-import { editBook } from '../actions/books';
+import { editContent } from '../actions/contents';
 
-const EditBook = (props) => (
+const Edit = (props) => (
     <div className='container__box'>
-        <h3>Edit Post</h3>
-        <BookForm
+        <h3>Edit Post No.{props.location.pathname.slice(1, )}</h3>
+        <Form
             // book={props.book}
             // onSubmitBook={(book) => {
-            //     props.dispatch(editBook(props.book.id, book));
+            //     props.dispatch(editContent(props.book.id, book));
             //     props.history.push('/');
             // }}
             content={props.content}
             onSubmitBook={(content) => {
-                props.dispatch(editBook(props.location.pathname.slice(1, ), content));
+                props.dispatch(editContent(props.location.pathname.slice(1, ), content));
                 props.history.push('/');
             }}
         />
@@ -28,4 +28,4 @@ const mapStateToProps = (state, props) => {
     };
 };
 
-export default connect(mapStateToProps)(EditBook);
+export default connect(mapStateToProps)(Edit);

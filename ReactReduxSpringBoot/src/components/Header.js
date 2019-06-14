@@ -1,12 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+// import logoPic from './../statics/logo.png';
 
 const Header = () => (
     <header>
-        <h2>BLOG</h2>
+        <div className='header__wrapper'>
+            <h1>BLOG</h1>
+        </div>
         <div className='header__nav'>
-            <NavLink to='/' activeClassName='activeNav' exact={true}>Home</NavLink>
-            <NavLink to='/add' activeClassName='activeNav'>Add New Posts</NavLink>
+            <NavLink to='/' className='header__navItem' activeClassName='activeNav header__navItem active' exact={true}>Home</NavLink>
+            <NavLink to='/add' className='header__navItem' activeClassName='activeNav header__navItem active'>Add A New Post</NavLink>
         </div>
     </header>
 );

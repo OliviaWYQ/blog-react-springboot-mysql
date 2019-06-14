@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f779535c-13d1-481b-9ce2-97a13e6359e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/actions/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/actions/books.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/AddBook.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/AddBook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/BookList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/styles/components/container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/styles/components/container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/styles/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/styles/components/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactReduxSpringBoot/src/styles/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/model/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="294">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -289,7 +293,7 @@
       <workItem from="1560159716396" duration="6002000" />
       <workItem from="1560240571320" duration="760000" />
       <workItem from="1560333071511" duration="41000" />
-      <workItem from="1560340324294" duration="10082000" />
+      <workItem from="1560340324294" duration="10361000" />
     </task>
     <servers />
   </component>
@@ -308,11 +312,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16885000" />
+    <option name="totallyTimeSpent" value="17164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="23" width="1386" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24776785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -324,7 +327,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24585988" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24585988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,8 +448,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/javasampleapproach/spring/mysql/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="294">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

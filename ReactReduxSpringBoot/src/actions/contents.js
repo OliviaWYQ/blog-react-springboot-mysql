@@ -1,11 +1,11 @@
 import axios from '../axios/axios';
 
-const _addBook = (content) => ({
-    type: 'ADD_BOOK',
+const _addContent = (content) => ({
+    type: 'ADD_CONTENT',
     content
 });
 
-export const addBook = (bookData = {
+export const addContent = (bookData = {
     // id: '',
     title: '',
     author: '',
@@ -22,55 +22,55 @@ export const addBook = (bookData = {
         };
         console.log("add post", content);
         return axios.post('/create', content).then(result => {
-            dispatch(_addBook(result.data));
+            dispatch(_addContent(result.data));
         });
     };
 };
 
-const _removeBook = ({ id } = {}) => ({
-    type: 'REMOVE_BOOK',
+const _removeContent = ({ id } = {}) => ({
+    type: 'REMOVE_CONTENT',
     id
 });
 
-export const removeBook = ({ id } = {}) => {
+export const removeContent = ({ id } = {}) => {
     console.log("remove post", id);
     return (dispatch) => {
         return axios.delete(`/${id}`).then(() => {
-            dispatch(_removeBook({ id }));
+            dispatch(_removeContent({ id }));
         })
     }
 };
 
-const _editBook = (id, updates) => ({
-    type: 'EDIT_BOOK',
+const _editContent = (id, updates) => ({
+    type: 'EDIT_CONTENT',
     id,
     updates
 });
 
-export const editBook = (id, updates) => {
+export const editContent = (id, updates) => {
     console.log("edit post", id, updates);
     return (dispatch) => {
         return axios.put(`/${id}`, updates).then(() => {
-            dispatch(_editBook(id, updates));
+            dispatch(_editContent(id, updates));
         });
     }
 };
 
-const _getBooks = (books) => ({
-    type: 'GET_BOOKs',
-    books
+const _getContent = (contents) => ({
+    type: 'GET_CONTENT',
+    contents
 });
 
-export const getBooks = () => {
+export const getContent = () => {
     return (dispatch) => {
         return axios.get('/list').then(result => {
-            const books = [];
+            const contents = [];
 
             result.data.forEach(item => {
-                books.push(item);
+                contents.push(item);
             });
 
-            dispatch(_getBooks(books));
+            dispatch(_getContent(contents));
         });
     };
 };
