@@ -2,7 +2,7 @@ import React from 'react';
 
 const NotFound = () => (
     <div>
-        404!
+        Contents Not Found!
     </div>
 );
 
