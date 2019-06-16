@@ -32,7 +32,7 @@ Use [TravisCI](https://travis-ci.com/OliviaWYQ/blog-react-springboot-mysql) as D
 
 Agile 开发流程
 
-![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/report/ScrumModel.jpg)
+![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/ScrumModel.jpg)
 
 看板软件：[Trello](https://trello.com/b/QvWv9Y9a/demo)
 
