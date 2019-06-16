@@ -34,5 +34,5 @@ Agile 开发流程
 
 ![image](https://images.cnblogs.com/cnblogs_com/taven/201010/ScrumModel.jpg)
 
-使用[Trello]看板软件(https://trello.com/b/QvWv9Y9a/demo)
+看板软件：[Trello](https://trello.com/b/QvWv9Y9a/demo)
 
