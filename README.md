@@ -27,6 +27,8 @@ $ yarn install
 $ yarn run dev-server
 ```
 
+Preview:
+
 ![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/home.png)
 ![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/add.png)
 ![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/edit.png)
