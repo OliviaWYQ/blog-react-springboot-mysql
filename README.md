@@ -2,6 +2,12 @@
 
 ## Demo
 
+build MySQL database:
+
+```
+$ mysql -u root -p < 'blogdemo.sql' 
+```
+
 run server on port 8080:
 
 ```
