@@ -33,8 +33,8 @@ public class DemoApplicationTests {
 		System.out.println(list);
 	}
 
-	@Test
-	public void testPostContent() {
+//	@Test
+	public int testPostContent() {
 		System.out.println("---------test controller post method---------");
 		Content content = new Content();
 		content.setTitle("测试");
@@ -43,6 +43,8 @@ public class DemoApplicationTests {
 		content.setTime(today);
 		content.setDescription("Desc");
 		contentController.postContent(content);
+		Integer id = content.getId();
+		return id;
 	}
 
 	@Test
@@ -54,13 +56,20 @@ public class DemoApplicationTests {
 		Date today = new Date();
 		content.setTime(today);
 		content.setDescription("Desc");
-		contentController.updateContent(28,content);
+
+		Integer id = testPostContent();
+		contentController.updateContent(id, content);
+		testRemoveContent(id);
 	}
 
-	@Test
-	public void testRemoveContent() {
+//	@Test
+	public void testRemoveContent(Integer id) {
 		System.out.println("---------test controller delete method---------");
-		contentController.deleteContentById(28);
+		Content content = contentController.findContentById(id);
+		if (content != null) {
+			contentController.deleteContentById(content.getId());
+		}
+
 	}
 
 	@After
