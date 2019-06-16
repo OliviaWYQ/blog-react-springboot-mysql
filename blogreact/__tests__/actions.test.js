@@ -5,32 +5,36 @@ import getContent from '../src/actions/contents';
 /* 测试 bizTable 相关 actions */
 describe('test actions', () => {
 
-    /* 测试get data */
-    test('should create an action for get data request', (contents) => {
-        const expectedAction = {
-            type: 'GET_CONTENT',
-            contents
-        };
+    // /* 测试get data */
+    // test('should create an action for get data request', (contents) => {
+    //     const expectedAction = {
+    //         type: 'GET_CONTENT',
+    //         contents
+    //     };
 
-        expect(getContent).toEqual(expectedAction);
-    });
+    //     expect(getContent).toEqual(expectedAction);
+    // });
 
-    test('get data 异步', () => {
-        expect.assertions(1);
-        return getContent
-            .then(content => {
-                expect(content.id).toBe(3);
-            });
-    })
+    // test('get data 异步', () => {
+    //     expect.assertions(1);
+    //     return getContent
+    //         .then(content => {
+    //             expect(content.id).toBe(3);
+    //         });
+    // });
 
     test('getContent能被调用', async () => {
+        beforeEach(() => {
+            getContent.mockClear();
+        });
+        
         expect.assertions(1);
         let mockFn = jest.fn();
         await getContent(mockFn);
 
         // 断言mockFn被调用
         expect(mockFn).toBeCalled();
-    })
+    });
 
     // /* 测试put data */
     // test('should create an action for successful result of get data', () => {

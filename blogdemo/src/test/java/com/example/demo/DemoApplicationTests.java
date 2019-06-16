@@ -57,6 +57,12 @@ public class DemoApplicationTests {
 		contentController.updateContent(28,content);
 	}
 
+	@Test
+	public void testRemoveContent() {
+		System.out.println("---------test controller delete method---------");
+		contentController.deleteContentById(28);
+	}
+
 	@After
 	public void after() {
 		System.out.println("-----------------测试结束-----------------");
