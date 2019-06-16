@@ -27,7 +27,7 @@ public class Content implements Serializable {
     @Column(name = "description")
     private String description;
 
-    protected Content() {
+    public Content() {
     }
 
     public Integer getId() {
