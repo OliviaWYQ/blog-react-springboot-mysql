@@ -2,6 +2,25 @@
 
 ## Demo
 
+run server:
+
+```
+$ cd blogdemo/
+$ mvn clean
+$ mvn compile
+$ mvn package
+$ cd target/
+$ java -jar <jarfilename>.jar
+```
+
+run client:
+
+```
+$ cd blogreact
+$ yarn install
+$ yarn run dev-server
+```
+  
 ### Summary
 
 A blog website where users can view, update, edit and remove posts.
