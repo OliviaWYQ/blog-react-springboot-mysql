@@ -26,3 +26,8 @@ front-end: Jest
 
 back-end: Junit
 
+Use [TravisCI](https://travis-ci.com/OliviaWYQ/blog-react-springboot-mysql) as Devops tool and use Coverall to test branch coverage.
+
+## Report
+
+Agile
