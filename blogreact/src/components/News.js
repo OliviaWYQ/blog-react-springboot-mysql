@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
-import { removeContent, editContent } from '../actions/contents';
+import { removeContent } from '../actions/contents';
 
 const News = ({ id, title, name, description, author, time, dispatch }) => (
     <div className='list__Item'>
