@@ -5,5 +5,3 @@ matrix:
       sudo: true
       dist: trusty
       jdk: oraclejdk8
-      before_script: 
-        - chmod +x mvnw
