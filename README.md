@@ -28,11 +28,18 @@ back-end: Junit
 
 Use [TravisCI](https://travis-ci.com/OliviaWYQ/blog-react-springboot-mysql) as Devops tool and use [Coverall](https://coveralls.io/github/OliviaWYQ/blog-react-springboot-mysql) to test branch coverage.
 
-## Report for Demo
+## Report
 
-Agile 开发流程
+传统开发流程：
+
+![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/waterfall.png)
+
+Agile 敏捷开发流程: 
+
+![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/agile.png)
 
 ![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/ScrumModel.jpg)
 
 看板软件：[Trello](https://trello.com/b/QvWv9Y9a/demo)
 
+集成开发工具：IDEA (for Java), VS Code (for JavaSvript)
