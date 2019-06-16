@@ -73,4 +73,11 @@
 		</plugins>
 	</build>
 
+<!--	<distributionManagement>-->
+<!--		<repository>-->
+<!--			<id>releases</id>-->
+<!--			<url>http://localhosy:8080/</url>-->
+<!--		</repository>-->
+<!--	</distributionManagement>-->
+
 </project>
