@@ -2,7 +2,7 @@
 
 ## Demo
 
-run server:
+run server on port 8080:
 
 ```
 $ cd blogdemo/
@@ -13,7 +13,7 @@ $ cd target/
 $ java -jar <jarfilename>.jar
 ```
 
-run client:
+run client on port 8081:
 
 ```
 $ cd blogreact
@@ -43,7 +43,17 @@ Use MySQL database, and query data by Spring JPA.
 
 front-end: Jest
 
+```
+$ cd blogreact/
+$ npm test
+```
+
 back-end: Junit
+
+```
+$ cd blogdemo/
+$ mvn test
+```
 
 Use [TravisCI](https://travis-ci.com/OliviaWYQ/blog-react-springboot-mysql) as Devops tool and use [Coverall](https://coveralls.io/github/OliviaWYQ/blog-react-springboot-mysql) to test branch coverage.
 
@@ -53,7 +63,7 @@ Use [TravisCI](https://travis-ci.com/OliviaWYQ/blog-react-springboot-mysql) as D
 
 ![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/waterfall.png)
 
-Agile 敏捷开发流程: 
+Agile 敏捷开发流程: 采用迭代、循序渐进的方法进行软件开发，把项目进行拆分，分别完成每个可独立运行的小项目，使软件一直处于可使用状态。
 
 ![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/agile.png)
 
