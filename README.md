@@ -42,4 +42,14 @@ Agile 敏捷开发流程:
 
 看板软件：[Trello](https://trello.com/b/QvWv9Y9a/demo)
 
-集成开发工具：IDEA (for Java), VS Code (for JavaSvript)
+集成开发工具：
+
+VS Code (for JavaSvript)
+
+IDEA (for Java)
+
+工具链：
+
+前端：包管理工具npm, 打包工具webpack, 样式表工具sass
+
+后端：构建工具Maven
