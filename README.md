@@ -51,7 +51,7 @@ Use Redux for data access, and use redux-thunk as the middleware.
 back-end:
 Use MySQL database, and query data by Spring JPA.
 
-![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/demo.png)
+<img src="https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/demo.png" width = "300" height = "500" alt="img4" align=center />
 
 ## Unit Test
 
