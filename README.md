@@ -51,6 +51,8 @@ Use Redux for data access, and use redux-thunk as the middleware.
 back-end:
 Use MySQL database, and query data by Spring JPA.
 
+![image](https://github.com/OliviaWYQ/blog-react-springboot-mysql/blob/master/report/demo.png)
+
 ## Unit Test
 
 front-end: Jest
